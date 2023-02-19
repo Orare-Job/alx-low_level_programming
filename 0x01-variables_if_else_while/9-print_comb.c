@@ -10,12 +10,12 @@ int main(void)
 {
 	int i;
 
-	i = 0;
-	while (i < 10)
+	i = 48;
+	while (i < 58)
 	{
 		putchar(i);
 		i++;
-		if (i != 9)
+		if (i != 57)
 		{
 			putchar(',');
 			putchar(' ');
