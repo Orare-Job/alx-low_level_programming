@@ -15,6 +15,6 @@ int main(void)
 		printf("%d", x);
 		x++;
 	} while (x < 10);
-
+	putchar('\n');
 	return (0);
 }
