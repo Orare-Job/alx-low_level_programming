@@ -14,6 +14,6 @@ int main(void)
 	do {
 		printf("%d \n", x);
 		x++;
-	} while (x <= 10);
+	} while (x < 10);
 	return (0);
 }
