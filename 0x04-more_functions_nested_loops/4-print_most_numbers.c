@@ -11,13 +11,11 @@ void print_most_numbers(void)
 
 	while (i < 10)
 	{
+		if (i == 1 && i == 3 && i == 9)
+			continue;
+
 		_putchar((i % 10) + '0');
 		i++;
-
-		if (i == 1 && i == 3)
-		{
-			continue;
-		}
 	}
 	_putchar('\n');
 }
