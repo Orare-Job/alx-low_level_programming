@@ -29,10 +29,10 @@ char *cap_string(char *str)
 		{
 			if (str[index] >= 'a' && str[index] <= 'z')
 			{
-				str[i] = str[i] - 32;
-				index++;
+				str[index] = str[index] - 32;
 			}
 		}
+		index++
 	}
 	return (str);
 }
